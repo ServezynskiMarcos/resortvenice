@@ -1,0 +1,41 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Alice, serif";
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  font-size: 1.2rem;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 4rem;
+}
+.container form input{
+ border: 1px solid rgb(163, 163, 163);
+ padding: 10px;
+ border-radius: 10px;
+ margin-bottom: 30px;
+}
+.container form button{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #b4945e;
+  color: #fff;
+
+ }
+.container form label{
+  color: #a49a88;
+}

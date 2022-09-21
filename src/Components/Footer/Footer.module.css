@@ -1,0 +1,47 @@
+.container{
+  background-color: #a49a88;
+  padding-top: 2.5rem;
+  position: relative;
+  bottom: 0;
+  width:100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.center h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+.center{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.left a{
+  color: #fff;
+}
+.left a:hover{
+  color: #856f3b;
+
+}
+.icons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.icons a{
+  color: #fff;
+}
+.icons a:hover{
+  color: #856f3b;
+}
+h3{
+  font-family: 'Alice', serif;
+  text-align: center
+  
+}

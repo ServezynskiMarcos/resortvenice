@@ -1,0 +1,30 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem 5rem 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #856f3b;
+  font-family: Dancing Script, cursive;
+  color: #fff;
+  font-size: 5rem;
+  width: 78%;
+  padding:5rem;
+  margin-top: -8%;
+
+}
+.imgs{
+  transition: all .2s ease-in-out; 
+}
+.imgs:hover{
+  transform: scale(0.9);
+}

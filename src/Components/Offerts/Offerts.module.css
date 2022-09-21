@@ -1,0 +1,26 @@
+.container {
+  background-color: #856f3b;
+  font-family: "Alice", serif;
+  color: #fff;
+  margin: 5% 0;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.containerItems {
+  display: flex;
+  gap: 3rem;
+}
+.contentInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.icons {
+  font-size: 2rem;
+}
